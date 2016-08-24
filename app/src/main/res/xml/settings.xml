@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        android:title="Currency Setting"
+        android:key="outlets">
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="restaurant"
+            android:summary="enable KE currency denominations"
+            android:title="Show denominations" />
+        <!--<Preference-->
+            <!--android:key="changebranch"-->
+            <!--android:summary="change branch"-->
+            <!--android:title="Branch">-->
+            <!--<intent android:action="ondemandltd.bambapos.ui.settings.ChangeBranch.ACTION_USER_VIEW"-->
+            <!--/>-->
+        <!--</Preference>-->
+
+
+
+    </PreferenceCategory>
+
+
+</PreferenceScreen>

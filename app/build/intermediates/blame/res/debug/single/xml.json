@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/Users/robertnyangate/Development/KenyanKeyboard/app/build/intermediates/res/merged/debug/xml/method.xml",
+        "source": "/Users/robertnyangate/Development/KenyanKeyboard/app/src/main/res/xml/method.xml"
+    },
+    {
+        "merged": "/Users/robertnyangate/Development/KenyanKeyboard/app/build/intermediates/res/merged/debug/xml/settings.xml",
+        "source": "/Users/robertnyangate/Development/KenyanKeyboard/app/src/main/res/xml/settings.xml"
+    },
+    {
+        "merged": "/Users/robertnyangate/Development/KenyanKeyboard/app/build/intermediates/res/merged/debug/xml/kwerty.xml",
+        "source": "/Users/robertnyangate/Development/KenyanKeyboard/app/src/main/res/xml/kwerty.xml"
+    }
+]
