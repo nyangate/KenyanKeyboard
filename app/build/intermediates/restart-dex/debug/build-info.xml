@@ -4,27 +4,27 @@
     api-level="19"
     density="hdpi"
     format="7"
-    timestamp="105630669095491"
+    timestamp="77588380199683"
     token="-2952353506090290269" >
 
     <task
         name="javac"
-        duration="0" />
+        duration="406" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="0" />
+        duration="24" />
     <task
         name="verifier"
-        duration="0" />
+        duration="7" />
 
     <artifact
         location="/Users/robertnyangate/Development/KenyanKeyboard/app/build/outputs/apk/app-debug.apk"
         type="MAIN" />
 
-    <build timestamp="105630669095491" >
+    <build timestamp="77588380199683" >
         <artifact
             location="/Users/robertnyangate/Development/KenyanKeyboard/app/build/outputs/apk/app-debug.apk"
             type="MAIN" />

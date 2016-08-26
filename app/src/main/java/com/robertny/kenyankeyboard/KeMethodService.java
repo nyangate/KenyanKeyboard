@@ -42,6 +42,11 @@ public class KeMethodService extends InputMethodService
                 case Keyboard.KEYCODE_DONE:
                     ic.sendKeyEvent(new KeyEvent(KeyEvent.ACTION_DOWN, KeyEvent.KEYCODE_ENTER));
                     break;
+                case 730:
+                    keyboard = new Keyboard(this, R.xml.denominational);
+                    kv.setKeyboard(keyboard);
+                    kv.setOnKeyboardActionListener(this);
+                    break;
                 default:
                     char code = (char)primaryCode;
                     if(Character.isLetter(code) && caps){

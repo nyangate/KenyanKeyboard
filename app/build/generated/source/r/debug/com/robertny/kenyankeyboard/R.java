@@ -3204,9 +3204,10 @@ containing a value of this type.
         public static final int Widget_Design_TextInputLayout=0x7f090168;
     }
     public static final class xml {
-        public static final int kwerty=0x7f060000;
-        public static final int method=0x7f060001;
-        public static final int settings=0x7f060002;
+        public static final int denominational=0x7f060000;
+        public static final int kwerty=0x7f060001;
+        public static final int method=0x7f060002;
+        public static final int settings=0x7f060003;
     }
     public static final class styleable {
         /** Attributes that can be used with a ActionBar.

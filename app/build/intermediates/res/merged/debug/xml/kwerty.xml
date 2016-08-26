@@ -2,7 +2,7 @@
           android:keyWidth="10%p"
           android:horizontalGap="0px"
           android:verticalGap="0px"
-          android:keyHeight="60dp"
+          android:keyHeight="50dp"
 >
     <Row>
         <Key android:codes="49" android:keyLabel="1" android:keyEdgeFlags="left"/>
@@ -53,22 +53,15 @@
         <Key android:codes="-5" android:keyLabel="DEL"/>
 
     </Row>
-    <Row>
-        <Key android:codes="-100" android:keyLabel="1000" android:keyEdgeFlags="left"/>
-        <Key android:codes="12200" android:keyLabel="500"/>
-        <Key android:codes="12000" android:keyLabel="200"/>
-        <Key android:codes="9900" android:keyLabel="100"/>
-        <Key android:codes="11800" android:keyLabel="50"/>
-        <Key android:codes="9800" android:keyLabel="40"/>
-        <Key android:codes="11000" android:keyLabel="20"/>
-        <Key android:codes="10900" android:keyLabel="10"/>
-        <Key android:codes="4600" android:keyLabel="5"/>
-        <Key android:codes="49000" android:keyLabel="1"/>
-    </Row>
+
     <Row android:rowEdgeFlags="bottom">
-        <Key android:codes="44" android:keyLabel="," android:keyWidth="10%p"  android:keyEdgeFlags="left"/>
+        <Key android:codes="730" android:keyIcon="@android:drawable/ic_menu_manage"
+             android:keyWidth="10%p"
+             android:keyEdgeFlags="left"/>
+        <Key android:codes="44" android:keyLabel="," android:keyWidth="10%p"  />
         <Key android:codes="47" android:keyLabel="/" android:keyWidth="10%p" />
-        <Key android:codes="32" android:keyLabel="SPACE" android:keyWidth="40%p" android:isRepeatable="true"/>
+        <Key android:codes="32" android:keyLabel="SPACE" android:keyWidth="30%p"
+             android:isRepeatable="true"/>
         <Key android:codes="63,33,58" android:keyLabel="\? ! :" android:keyWidth="20%p"
              android:keyEdgeFlags="right"/>
         <Key android:codes="-4" android:keyLabel="DONE" android:keyWidth="20%p" android:keyEdgeFlags="right"/>

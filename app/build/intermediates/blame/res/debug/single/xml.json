@@ -10,5 +10,9 @@
     {
         "merged": "/Users/robertnyangate/Development/KenyanKeyboard/app/build/intermediates/res/merged/debug/xml/kwerty.xml",
         "source": "/Users/robertnyangate/Development/KenyanKeyboard/app/src/main/res/xml/kwerty.xml"
+    },
+    {
+        "merged": "/Users/robertnyangate/Development/KenyanKeyboard/app/build/intermediates/res/merged/debug/xml/denominational.xml",
+        "source": "/Users/robertnyangate/Development/KenyanKeyboard/app/src/main/res/xml/denominational.xml"
     }
 ]

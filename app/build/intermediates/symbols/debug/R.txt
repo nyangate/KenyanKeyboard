@@ -1725,6 +1725,7 @@ int[] styleable ViewStubCompat { 0x010100d0, 0x010100f2, 0x010100f3 }
 int styleable ViewStubCompat_android_id 0
 int styleable ViewStubCompat_android_inflatedId 2
 int styleable ViewStubCompat_android_layout 1
-int xml kwerty 0x7f060000
-int xml method 0x7f060001
-int xml settings 0x7f060002
+int xml denominational 0x7f060000
+int xml kwerty 0x7f060001
+int xml method 0x7f060002
+int xml settings 0x7f060003

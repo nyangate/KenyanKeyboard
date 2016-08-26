@@ -1,12 +1,2 @@
 <?xml version="1.0" encoding="utf-8"?>
-<items version="2" >
-
-    <item
-        jar="/Users/robertnyangate/Development/KenyanKeyboard/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
-        jumboMode="true"
-        revision="24.0.1"
-        sha1="cf737a4c935929e9471becbcf6ed6b09bc85c80b">
-        <dex dex="/Users/robertnyangate/Development/KenyanKeyboard/app/build/intermediates/pre-dexed/debug/instant-run-bootstrap_3443e1e3eee6e5e88ba3ee81d316918b471c714d.jar" />
-    </item>
-
-</items>
+<items version="2" />

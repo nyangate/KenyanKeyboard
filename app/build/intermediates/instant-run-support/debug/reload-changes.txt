@@ -1,14 +1,2 @@
-CHANGED,/Users/robertnyangate/Development/KenyanKeyboard/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/robertny/kenyankeyboard/R$styleable$override.class
-CHANGED,/Users/robertnyangate/Development/KenyanKeyboard/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/android/support/v7/appcompat/R$layout$override.class
 CHANGED,/Users/robertnyangate/Development/KenyanKeyboard/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/android/tools/fd/runtime/AppPatchesLoaderImpl.class
-CHANGED,/Users/robertnyangate/Development/KenyanKeyboard/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/robertny/kenyankeyboard/MainActivity$override.class
-CHANGED,/Users/robertnyangate/Development/KenyanKeyboard/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/android/support/design/R$layout$override.class
-CHANGED,/Users/robertnyangate/Development/KenyanKeyboard/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/robertny/kenyankeyboard/R$id$override.class
-CHANGED,/Users/robertnyangate/Development/KenyanKeyboard/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/robertny/kenyankeyboard/KenyanKeyboardIMESettings$override.class
-CHANGED,/Users/robertnyangate/Development/KenyanKeyboard/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/robertny/kenyankeyboard/R$layout$override.class
-CHANGED,/Users/robertnyangate/Development/KenyanKeyboard/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/robertny/kenyankeyboard/R$mipmap$override.class
-CHANGED,/Users/robertnyangate/Development/KenyanKeyboard/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/robertny/kenyankeyboard/R$string$override.class
-CHANGED,/Users/robertnyangate/Development/KenyanKeyboard/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/robertny/kenyankeyboard/R$integer$override.class
-CHANGED,/Users/robertnyangate/Development/KenyanKeyboard/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/robertny/kenyankeyboard/R$xml$override.class
-CHANGED,/Users/robertnyangate/Development/KenyanKeyboard/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/robertny/kenyankeyboard/R$menu$override.class
-CHANGED,/Users/robertnyangate/Development/KenyanKeyboard/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/robertny/kenyankeyboard/R$style$override.class
+CHANGED,/Users/robertnyangate/Development/KenyanKeyboard/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/robertny/kenyankeyboard/KeMethodService$override.class
