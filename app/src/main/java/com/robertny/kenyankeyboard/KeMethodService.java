@@ -47,6 +47,11 @@ public class KeMethodService extends InputMethodService
                     kv.setKeyboard(keyboard);
                     kv.setOnKeyboardActionListener(this);
                     break;
+                case 55004:
+                    keyboard = new Keyboard(this, R.xml.kwerty);
+                    kv.setKeyboard(keyboard);
+                    kv.setOnKeyboardActionListener(this);
+                    break;
                 default:
                     char code = (char)primaryCode;
                     if(Character.isLetter(code) && caps){
@@ -61,7 +66,15 @@ public class KeMethodService extends InputMethodService
         }
 
         @Override
+        public boolean onKeyLongPress(int keyCode, KeyEvent event) {
+            while (event.isLongPress())
+            onKey(keyCode,new int[event.getKeyCode()]);
+            return super.onKeyLongPress(keyCode, event);
+        }
+
+        @Override
         public void onRelease(int primaryCode) {
+
         }
 
         @Override
@@ -73,14 +86,31 @@ public class KeMethodService extends InputMethodService
         }
 
         @Override
+        public void swipeUp() {
+
+        }
+
+        @Override
         public void swipeLeft() {
+            keyboard = new Keyboard(this, R.xml.kwerty);
+            kv.setKeyboard(keyboard);
+            kv.setOnKeyboardActionListener(this);
         }
 
         @Override
         public void swipeRight() {
+            keyboard = new Keyboard(this, R.xml.denominational);
+            kv.setKeyboard(keyboard);
+            kv.setOnKeyboardActionListener(this);
         }
 
+
         @Override
-        public void swipeUp() {
+        public void onDestroy() {
+            super.onDestroy();
+            keyboard = new Keyboard(this, R.xml.kwerty);
+            kv.setKeyboard(keyboard);
+            kv.setOnKeyboardActionListener(this);
         }
-}
+
+    }
