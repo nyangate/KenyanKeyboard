@@ -629,8 +629,10 @@ int drawable abc_vector_test 0x7f02004f
 int drawable design_fab_background 0x7f020050
 int drawable design_ic_visibility 0x7f020051
 int drawable design_snackbar_background 0x7f020052
-int drawable navigation_empty_icon 0x7f020053
-int drawable notification_template_icon_bg 0x7f020054
+int drawable envir 0x7f020053
+int drawable ke 0x7f020054
+int drawable navigation_empty_icon 0x7f020055
+int drawable notification_template_icon_bg 0x7f020056
 int id action0 0x7f0d007e
 int id action_bar 0x7f0d005e
 int id action_bar_activity_content 0x7f0d0000

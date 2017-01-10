@@ -24,6 +24,10 @@
         "source": "/Users/robertnyangate/Development/KenyanKeyboard/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/drawable/abc_list_selector_background_transition_holo_dark.xml"
     },
     {
+        "merged": "/Users/robertnyangate/Development/KenyanKeyboard/app/build/intermediates/res/merged/debug/drawable/envir.jpeg",
+        "source": "/Users/robertnyangate/Development/KenyanKeyboard/app/src/main/res/drawable/envir.jpeg"
+    },
+    {
         "merged": "/Users/robertnyangate/Development/KenyanKeyboard/app/build/intermediates/res/merged/debug/drawable/abc_edit_text_material.xml",
         "source": "/Users/robertnyangate/Development/KenyanKeyboard/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/drawable/abc_edit_text_material.xml"
     },
@@ -138,6 +142,10 @@
     {
         "merged": "/Users/robertnyangate/Development/KenyanKeyboard/app/build/intermediates/res/merged/debug/drawable/abc_ic_ab_back_material.xml",
         "source": "/Users/robertnyangate/Development/KenyanKeyboard/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/drawable/abc_ic_ab_back_material.xml"
+    },
+    {
+        "merged": "/Users/robertnyangate/Development/KenyanKeyboard/app/build/intermediates/res/merged/debug/drawable/ke.png",
+        "source": "/Users/robertnyangate/Development/KenyanKeyboard/app/src/main/res/drawable/ke.png"
     },
     {
         "merged": "/Users/robertnyangate/Development/KenyanKeyboard/app/build/intermediates/res/merged/debug/drawable/design_fab_background.xml",

@@ -3,6 +3,7 @@ package com.robertny.kenyankeyboard;
 import android.inputmethodservice.InputMethodService;
 import android.inputmethodservice.Keyboard;
 import android.inputmethodservice.KeyboardView;
+import android.util.Log;
 import android.view.KeyEvent;
 import android.view.View;
 import android.view.inputmethod.InputConnection;
@@ -63,13 +64,15 @@ public class KeMethodService extends InputMethodService
 
         @Override
         public void onPress(int primaryCode) {
+            Log.d("KEY","pressed>>>"+primaryCode);
         }
 
         @Override
         public boolean onKeyLongPress(int keyCode, KeyEvent event) {
+
             while (event.isLongPress())
             onKey(keyCode,new int[event.getKeyCode()]);
-            return super.onKeyLongPress(keyCode, event);
+            return true;
         }
 
         @Override
@@ -79,6 +82,7 @@ public class KeMethodService extends InputMethodService
 
         @Override
         public void onText(CharSequence text) {
+            Log.d("KEY","pressed>>>"+text);
         }
 
         @Override
@@ -112,5 +116,6 @@ public class KeMethodService extends InputMethodService
             kv.setKeyboard(keyboard);
             kv.setOnKeyboardActionListener(this);
         }
+
 
     }
