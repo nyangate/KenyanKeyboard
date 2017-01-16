@@ -3,9 +3,11 @@ package com.robertny.kenyankeyboard;
 import android.inputmethodservice.InputMethodService;
 import android.inputmethodservice.Keyboard;
 import android.inputmethodservice.KeyboardView;
+import android.text.InputType;
 import android.util.Log;
 import android.view.KeyEvent;
 import android.view.View;
+import android.view.inputmethod.EditorInfo;
 import android.view.inputmethod.InputConnection;
 
 import java.util.Arrays;
@@ -31,9 +33,27 @@ public class KeMethodService extends InputMethodService
             kv.setOnKeyboardActionListener(this);
             return kv;
         }
+        boolean isInts=false;
+        @Override
+        public void onStartInputView(EditorInfo info, boolean restarting) {
+            super.onStartInputView(info, restarting);
+            if(info.inputType== InputType.TYPE_CLASS_NUMBER|| info.inputType==InputType
+                    .TYPE_CLASS_PHONE||info.inputType== InputType.TYPE_NUMBER_FLAG_DECIMAL){
+                keyboard = new Keyboard(this, R.xml.denominational);
+                kv.setKeyboard(keyboard);
+                kv.setOnKeyboardActionListener(this);
+
+            }else{
+                keyboard = new Keyboard(this, R.xml.kwerty);
+                kv.setKeyboard(keyboard);
+                kv.setOnKeyboardActionListener(this);
+            }
+        }
+
         @Override
         public void onKey(int primaryCode, int[] keyCodes) {
             InputConnection ic = getCurrentInputConnection();
+
             switch(primaryCode){
                 case Keyboard.KEYCODE_DELETE :
                     ic.deleteSurroundingText(1, 0);

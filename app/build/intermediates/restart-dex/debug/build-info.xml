@@ -5,22 +5,22 @@
     density="hdpi"
     format="8"
     plugin-version="2.2.3"
-    timestamp="14042870010933"
+    timestamp="15408445605458"
     token="-2952353506090290269"
     verifier="FULL_BUILD_REQUESTED" >
 
     <task
         name="javac"
-        duration="408" />
+        duration="0" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="52" />
+        duration="0" />
     <task
         name="verifier"
-        duration="1" />
+        duration="0" />
 
     <artifact
         location="/Users/robertnyangate/Development/KenyanKeyboard/app/build/outputs/apk/app-debug.apk"

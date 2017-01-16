@@ -20,15 +20,11 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_app_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" afterPath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_app_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/robertny/kenyankeyboard/KeMethodService.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/robertny/kenyankeyboard/KeMethodService.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/robertny/kenyankeyboard/KeMethodService.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/robertny/kenyankeyboard/KeMethodService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/resources-debug.ap_" afterPath="$PROJECT_DIR$/app/build/intermediates/res/resources-debug.ap_" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/robertny/kenyankeyboard/KeMethodService.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/robertny/kenyankeyboard/KeMethodService.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/outputs/apk/app-debug.apk" afterPath="$PROJECT_DIR$/app/build/outputs/apk/app-debug.apk" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/xml/kwerty.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/xml/kwerty.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/restart-dex/debug/build-info.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/restart-dex/debug/build-info.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/robertny/kenyankeyboard/KeMethodService.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/robertny/kenyankeyboard/KeMethodService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/xml/denominational.xml" afterPath="$PROJECT_DIR$/app/src/main/res/xml/denominational.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/xml/kwerty.xml" afterPath="$PROJECT_DIR$/app/src/main/res/xml/kwerty.xml" />
     </list>
     <ignored path="KenyanKeyboard.iws" />
@@ -106,17 +102,17 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="kwerty.xml" pinned="false" current-in-tab="false">
+          <file leaf-file-name="kwerty.xml" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/app/src/main/res/xml/kwerty.xml">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="495">
-                  <caret line="33" column="31" selection-start-line="33" selection-start-column="31" selection-end-line="33" selection-end-column="31" />
+                <state relative-caret-position="537">
+                  <caret line="66" column="13" selection-start-line="66" selection-start-column="13" selection-end-line="66" selection-end-column="13" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="denominational.xml" pinned="false" current-in-tab="true">
+          <file leaf-file-name="denominational.xml" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/app/src/main/res/xml/denominational.xml">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="435">
@@ -130,7 +126,7 @@
             <entry file="file://$PROJECT_DIR$/app/src/main/java/com/robertny/kenyankeyboard/KeMethodService.java">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="921">
-                  <caret line="153" column="0" selection-start-line="153" selection-start-column="0" selection-end-line="153" selection-end-column="0" />
+                  <caret line="173" column="0" selection-start-line="173" selection-start-column="0" selection-end-line="173" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -143,8 +139,8 @@
           <file leaf-file-name="KeMethodService.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/app/src/main/java/com/robertny/kenyankeyboard/KeMethodService.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="390">
-                  <caret line="67" column="26" selection-start-line="67" selection-start-column="26" selection-end-line="67" selection-end-column="26" />
+                <state relative-caret-position="300">
+                  <caret line="49" column="0" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -1890,9 +1886,9 @@
         <option value="$PROJECT_DIR$/app/src/main/res/layout/settingsview.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/keyboard.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/preview.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/xml/kwerty.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/xml/denominational.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/robertny/kenyankeyboard/KeMethodService.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/xml/kwerty.xml" />
       </list>
     </option>
   </component>
@@ -2878,10 +2874,10 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/xml/kwerty.xml">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/robertny/kenyankeyboard/KeMethodService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="33" column="31" selection-start-line="33" selection-start-column="31" selection-end-line="33" selection-end-column="31" />
+        <state relative-caret-position="921">
+          <caret line="173" column="0" selection-start-line="173" selection-start-column="0" selection-end-line="173" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -2894,10 +2890,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/robertny/kenyankeyboard/KeMethodService.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/xml/kwerty.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="67" column="26" selection-start-line="67" selection-start-column="26" selection-end-line="67" selection-end-column="26" />
+        <state relative-caret-position="537">
+          <caret line="66" column="13" selection-start-line="66" selection-start-column="13" selection-end-line="66" selection-end-column="13" />
           <folding />
         </state>
       </provider>
