@@ -8,6 +8,9 @@ import android.view.KeyEvent;
 import android.view.View;
 import android.view.inputmethod.InputConnection;
 
+import java.util.Arrays;
+import java.util.List;
+
 /**
  * Created by robertnyangate on 23/08/16.
  */
@@ -48,17 +51,108 @@ public class KeMethodService extends InputMethodService
                     kv.setKeyboard(keyboard);
                     kv.setOnKeyboardActionListener(this);
                     break;
+
                 case 55004:
                     keyboard = new Keyboard(this, R.xml.kwerty);
                     kv.setKeyboard(keyboard);
                     kv.setOnKeyboardActionListener(this);
                     break;
+                case 1000:
+                    ic.commitText("1000",1);
+                    break;
+                case 500:
+                    ic.commitText("500",1);
+                    break;
+                case 200:
+                    ic.commitText("200",1);
+                    break;
+                case 50:
+                    ic.commitText("50",1);
+                    break;
+                case 40:
+                    ic.commitText("40",1);
+                    break;
+                case 20:
+                    ic.commitText("20",1);
+                    break;
+                case 10:
+                    ic.commitText("10",1);
+                    break;
+                case 5:
+                    ic.commitText("5",1);
+                    break;
+                case 0:
+                    ic.commitText("0",1);
+                    break;
+                case 1010:
+                    ic.commitText("/",1);
+                    break;
+                case 1011:
+                    ic.commitText("=",1);
+                    break;
+                case 1012:
+                    ic.commitText("-",1);
+                    break;
+                case 1013:
+                    ic.commitText("+",1);
+                    break;
+                case 1014:
+                    ic.commitText("*",1);
+                    break;
+                case 1016:
+                    ic.commitText("\'",1);
+                    break;
+                case 1015:
+                    ic.commitText("100",1);
+                    break;
+                case 1017:
+                    ic.commitText(".",1);
+                    break;
+                case 1018:
+                    ic.commitText("[",1);
+                    break;
+                case 1019:
+                    ic.commitText("]",1);
+                    break;
+                case 1020:
+                    ic.commitText("{",1);
+                    break;
+                case 1021:
+                    ic.commitText("}",1);
+                    break;
+                case 1022:
+                    ic.commitText("%",1);
+                    break;
+                case 32:
+                    ic.commitText(" ",1);
+                    break;
+                case 63:
+                    ic.commitText("?",1);
+                    break;
+                case 33:
+                    ic.commitText("!",1);
+                    break;
+                case 58:
+                    ic.commitText(":",1);
+                    break;
+                case 59:
+                    ic.commitText(";",1);
+                    break;
+                case 122:
+                    ic.commitText("z",1);
+                    break;
                 default:
-                    char code = (char)primaryCode;
-                    if(Character.isLetter(code) && caps){
-                        code = Character.toUpperCase(code);
+                    if(primaryCode>0 && primaryCode<10)
+                    ic.commitText(""+primaryCode,1);
+                    else{
+                        char code = (char)primaryCode;
+                        if(Character.isLetter(code) && caps){
+                            code = Character.toUpperCase(code);
+                        }
+                        ic.commitText(String.valueOf(code),1);
                     }
-                    ic.commitText(String.valueOf(code),1);
+
+                    break;
             }
         }
 
